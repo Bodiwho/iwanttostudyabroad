@@ -1,0 +1,133 @@
+/* WEB BIG STYLE */
+
+*{
+	margin: 0px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr; 
+
+}
+
+/* NAV STYLE */
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+	position: sticky;
+	top: 0; 
+	background-color: blue;
+
+}
+
+.left-side{
+	display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+	margin-right: 15px;
+	font-size: 1.3em; 
+	font-family: 'Allan';
+	text-transform: uppercase;
+
+
+}
+
+.nav-link-wrapper{
+	height: 27px;
+	border-bottom: 1px solid transparent; 
+	transition: border-bottom 0.5s ;
+
+
+}
+
+.nav-link-wrapper a{
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s; 
+}
+.nav-link-wrapper:hover{
+	border-bottom: 1px solid black; 
+
+}
+
+.nav-link-wrapper a:hover{
+	color: black;
+}
+.right-side{
+	font-size: 1.35em;
+	font-family: "Allan";
+}
+/* GRID STYLE */
+
+.grid-items-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+
+}
+.grid-item-wrapper{
+	position: relative;
+
+}
+
+.grid-img-bg{
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.single-text-wrapper{
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-right: 26%;
+	padding-left: 20%;
+	width: 55%;
+	font-size: 60px;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; 
+ 	font-style: normal;
+ 	font-variant: normal; 
+ 	font-weight: 700; 
+ 	line-height: 52.8px;
+}
+.grid-items-wrapper a{
+	text-decoration: none;
+	color: transparent;
+
+}
+.grid-item-wrapper:hover .single-text-wrapper{
+	color: white;
+	transition: color 1.4s;
+}
+
+.img-darken{
+	transition: 1s;
+	filter: brightness(50%);
+}
+
+
+.text-bigger{
+	
+	font-size: 100px;
+}
+
+
+.content-wrapper{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
