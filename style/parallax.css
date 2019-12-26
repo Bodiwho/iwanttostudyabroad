@@ -161,7 +161,7 @@ h3.error{
     font-size: 30px;
 }
 .errortotal{
-    display: none;
+    display: block;
     filter: brightness(0%)
 
 }
