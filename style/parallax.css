@@ -139,6 +139,7 @@ h3.error{
 @media only screen and (max-width: 700px) {
     h3.error{
     display: block;
+    z-index: 1;
 }
 .error{
     
@@ -161,10 +162,12 @@ h3.error{
     font-size: 30px;
 }
 .errortotal{
-    display: block;
+    display: none;
     filter: brightness(0%)
 
 }
+
+
 
 }
 
@@ -231,7 +234,7 @@ table, tr,th{
 
     .full{
         
-        background: black;
+        background: white;
         height: 100vh;
         width: 100vw;
 
@@ -244,6 +247,7 @@ table, tr,th{
         background:green;
         height: 100vh;
         width: 100vw;
+        position: fixed;
 
 
     }
@@ -254,6 +258,13 @@ table, tr,th{
         width: 100vw;
     }
 
+    .fotacos{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/IMG_9553.JPG);
+        height: 100vh;
+        background-size: cover;
+        width: 100vw;
+/*        background-attachment: fixed;
+*/    }
 
 
 

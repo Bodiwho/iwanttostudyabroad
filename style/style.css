@@ -72,7 +72,7 @@
 }
 
 .grid-img-bg{
-	height: 400px;
+	height: 350px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -113,6 +113,10 @@
 	filter: brightness(50%);
 }
 
+.img-slow{
+	transition: 0.4s;
+	filter: brightness(100%);
+}
 
 .text-bigger{
 	
@@ -123,8 +127,7 @@
 .content-wrapper{
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top:50px;
-	margin-bottom: 30px;
+	padding-top: 35px;
 }
 
 
