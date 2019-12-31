@@ -78,7 +78,7 @@
 	height: 45vh;
 	width: 100%;
 	background-size: cover;
-	background-position: top;
+	background-position: bottom;
 	background-repeat: no-repeat;
 
 }
@@ -86,11 +86,17 @@
 	height: 45vh;
 	width: 100%;
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 	background-repeat: no-repeat;
 
 }
-
+.grid-img-bg-top{
+	height: 45vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
 .single-text-wrapper{
 	position: absolute;
 	top: 0;
@@ -145,8 +151,8 @@
 
 
 .content-wrapper{
-	margin-left: 10vh;
-	margin-right: 10vh;
+	margin-left: 12vh;
+	margin-right: 12vh;
 
 }
 
