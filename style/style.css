@@ -72,7 +72,7 @@
 }
 
 .grid-img-bg{
-	height: 350px;
+	height: 40vh;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -105,32 +105,40 @@
 }
 .grid-item-wrapper:hover .single-text-wrapper{
 	color: white;
-	transition: color 1.4s;
+	transition: color 0.5s;
 }
 
 .img-darken{
-	transition: 1s;
+	transition: 0.3s;
 	filter: brightness(50%);
 }
 
 .img-slow{
-	transition: 0.4s;
+	transition: 0.3s;
 	filter: brightness(100%);
 }
 
 .text-bigger{
-	
 	font-size: 100px;
 }
 
 
 .content-wrapper{
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-top: 35px;
+	margin-left: 120px;
+	margin-right: 120px;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 
+.single-text-wrapper{
+	line-height: 60px;
+}
 
+.fotacos{
+/*	padding-bottom: 10vh;
+*/}
+.todo{
+	padding-top: 3vh;
 
-
+}

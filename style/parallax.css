@@ -17,7 +17,7 @@ body{
 header{
     box-sizing: border-box;
     min-height: 100vh;
-    padding: 30vw 0 5vw;
+    padding: 25vw 0 1vw;
     position: relative;
     transform-style: inherit;
     width: 100vw;
@@ -25,7 +25,7 @@ header{
 header h1 {
     font-family: "Luna";
     font-size: 2.4em;
-    line-height: 10px;
+    line-height: 95px;
     color: white;
     text-transform: uppercase;
 }
@@ -41,10 +41,10 @@ header .bigtitle h1{
 }
 
 #how{
-    padding-top: 10px;
+    padding-top: 3px;
     margin-top: 0;
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: "TIMES";
 
 }
@@ -244,16 +244,16 @@ table, tr,th{
     }
 
     .fullgreen{
-        background:green;
-        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/IMG_0843.JPG);
+        height: 102vh;
         width: 100vw;
-        position: fixed;
+        background-size: cover;
 
 
     }
 
     .full-red{
-        background: red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/IMG_9553.JPG);
         height: 100vh;
         width: 100vw;
     }

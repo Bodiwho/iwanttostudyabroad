@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.cuerpo{
+	height: 120vh;
+	width:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.cuerpo h1{
+	padding: 50px;
+	margin: 0;
+	text-align: center;
+	font-family: 'Lilita One', cursive;
+	color: white;
+	font-size: 70px;
+	text-shadow: 2px 3px black;
+	font-weight: 400;
+}
+
+
+.cuadro{
+	display: block;
+	height: auto;
+	position: absolute;
+	width: 60%;
+	background-color:rgba(0, 0, 0, 0.5);
+	left: 20%;
+	right: 20%;
+	color: white;
+	margin-top: 10vh;
+
+
+}
+.cuadro p {
+	padding-top: 0;
+	font-family: normal normal normal 50px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+		padding: 10px 30px 10px 30px;
+}
+.cuadro h1{
+	padding-bottom: 0;
+}
+
+
+.atras{
+		text-align: center;
+		padding-bottom: 20px;
+
+}
+.atras a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.atras a:hover {
+	text-decoration: underline;
+}

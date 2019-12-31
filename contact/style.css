@@ -1,0 +1,95 @@
+body {
+  font-family: times;
+}
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0.2em;
+  font-family: "Times";
+  text-align: center; 
+  font-size: 60px;
+  padding-top: 0;
+  color: white;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  font-size: 30px;
+  background: #40898E;
+  color: white;
+  border-radius: 8px;
+  padding-top:4px ;
+
+/*  box-shadow: 2px 4px black;*/
+}
+button:hover{
+  color: white;
+  background:#00DE00;
+  transition: 0.2s background;
+/*  transition: 0.2s box-shadow;
+*/
+}
+
+#name, #email {
+  width: 25%;
+}
+
+.form-elements{
+  text-align: center;
+
+}
+#name, #email{
+  left:38%;
+
+}
+
+textarea{
+  left: 38%;
+  width: 25%;
+  color: black;
+}
+label{
+  font-size: 25px;
+  color: white;
+}
+
+.thankyou_message{
+  text-align: center;
+}
+
+.doubt{
+  text-align: center;
+  padding-top: 0px;
+  font-family: palatino;
+  font-size: 60px;
+  color: white;
+  margin-top: 0;
+  font-weight: 300;
+  padding-bottom: 0;
+
+}
+#email .value{
+  color: black;
+}
+
