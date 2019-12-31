@@ -191,7 +191,8 @@ h3.error{
     letter-spacing: 0.1em;
     text-align: left;
     margin: 0;
-    padding: 7% 25% 0 25%;
+    padding: 10vh 15vh 0vh 25vh;
+/*    padding: 7% 25% 0 25%;*/
 }
 
 .foto img{
@@ -203,7 +204,8 @@ h3.error{
 }
 
 .foto{
-    padding-left: 30px;
+    width: 50vh;
+    height: 50vh;
 }
 
 
@@ -218,7 +220,7 @@ h3.error{
     font-family: times;
     line-height: 20px;
     font-weight: 100;
-
+    padding-right: 1vh;
 }
 /*
 table, tr,th{
@@ -228,7 +230,10 @@ table, tr,th{
 */
 
 .hola{
-    top: auto;    
+    top: auto;
+    width: 50vh;
+    height: 50vh;
+
 }
 
 
@@ -245,9 +250,10 @@ table, tr,th{
 
     .fullgreen{
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/IMG_0843.JPG);
-        height: 102vh;
+        height: 100vh;
         width: 100vw;
         background-size: cover;
+
 
 
     }
@@ -259,7 +265,7 @@ table, tr,th{
     }
 
     .fotacos{
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/IMG_9553.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/IMG_2809.JPG);
         height: 100vh;
         background-size: cover;
         width: 100vw;

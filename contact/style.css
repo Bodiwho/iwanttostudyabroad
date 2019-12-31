@@ -39,13 +39,13 @@ button {
   background: #40898E;
   color: white;
   border-radius: 8px;
-  padding-top:4px ;
+
 
 /*  box-shadow: 2px 4px black;*/
 }
 button:hover{
   color: white;
-  background:#00DE00;
+  background:#008416;
   transition: 0.2s background;
 /*  transition: 0.2s box-shadow;
 */
@@ -93,3 +93,7 @@ label{
   color: black;
 }
 
+.todo{
+  padding-top: 5vh;
+
+}
