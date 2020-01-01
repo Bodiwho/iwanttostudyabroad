@@ -1,5 +1,11 @@
 /* WEB BIG STYLE */
+@font-face{
+	font-family: 'Luna';
+    font-style: normal;
+    font-weight: normal;
+    src: local('luna'), url('../lunafuente/Luna.woff') format('woff');
 
+}
 *{
 	margin: 0px;
 }
