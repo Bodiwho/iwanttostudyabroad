@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Pacifico|Raleway|Shadows+Into+Light&display=swap');
+
+
 html{
     height: 100%;
     overflow: hidden;
@@ -17,7 +20,7 @@ body{
 header{
     box-sizing: border-box;
     min-height: 100vh;
-    padding: 25vw 0 1vw;
+    padding: 28vw 0 1vw;
     position: relative;
     transform-style: inherit;
     width: 100vw;
@@ -175,7 +178,8 @@ h3.error{
 #section1{
     display: block;
     position: absolute;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/autofoto.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(../images/IMG_9553.JPG);
+    background-position: bottom;
     width: 100vw;
     height: 100vh;
     color: white;
@@ -187,10 +191,9 @@ h3.error{
 
 .yo{
   display: block;
-    letter-spacing: 0.1em;
     text-align: left;
     margin: 0;
-    padding: 10vh 15vw 0vh 25vw;
+    padding: 18vh 15vw 0vh 25vw;
 /*    padding: 7% 25% 0 25%;*/
 }
 
@@ -203,8 +206,8 @@ h3.error{
 }
 
 .foto{
-    width: 50vh;
-    height: 50vh;
+    width: 45vh;
+    height: 45vh;
 }
 
 
@@ -216,12 +219,20 @@ h3.error{
     color: white;
     margin-top: 0;
     vertical-align: top;
-    font-family: times;
-    line-height: 20px;
-    font-weight: 100;
-    padding-right: 1vh;
+    font-family: 'Ibarra Real Nova', serif;
+    line-height: 26px;
+    font-weight: 20;
+    padding-right: 1.3vw;
     text-align: justify;
-    width: 25vw;
+    width: 24vw;
+    font-size: 25px;
+    text-indent: 40px;
+    text-shadow: 1px 1px black;
+   /*letter-spacing: 0.006em;*/
+}
+
+.primero,.segundo{
+      text-indent: 40px;
 }
 /*
 table, tr,th{
@@ -276,6 +287,16 @@ table, tr,th{
 
 
 
+.youtube{
+    text-decoration: none;
+    color: #00FE5F;
+}
 
+.youtube:hover{
+    color:red;
+    text-decoration: underline;;
+    transition: 0.8s color ;
+
+}
 
 
