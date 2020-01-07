@@ -3,13 +3,86 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device=width, initial-scale=1.0">
-<!-- 	<link rel="stylesheet" type="text/css" href="cssforpages.css"> -->
 	<link rel="icon" href="../favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Patua+One&display=swap" rel="stylesheet">
- 	<link rel="icon" href="IMG_8080.ico">
+
  <script type="text/javascript" src="script.js"></script>
 	<title>Interview Analysis</title>
 </head>
+
+<script type="text/javascript">
+	
+var myIndex = 0;
+var time = 1500;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, time); // Change image every 2 seconds
+}
+function carousel1() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel1, time); // Change image every 2 seconds
+}
+
+function carousel2() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel2, time); // Change image every 2 seconds
+}
+function carousel3() {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel3, time); // Change image every 2 seconds
+}
+
+function carousel4() {
+  var i;
+  var x = document.getElementsByClassName("mySlides4");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel4, time); // Change image every 2 seconds
+}
+
+function carousel5() {
+  var i;
+  var x = document.getElementsByClassName("mySlides5");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel5, time); // Change image every 2 seconds
+}
+function carousel6() {
+  var i;
+  var x = document.getElementsByClassName("mySlides6");
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 0}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel6, time); // Change image every 2 seconds
+}
+</script>
 <body>
 
 	<style type="text/css">
@@ -19,7 +92,7 @@
 	}
 	h1{
 		text-align: center;
-		padding-top: 10vh;
+		padding-top: 4vh;
 		font-size: 3em;
 
 	}
@@ -28,20 +101,35 @@
 		padding-top: 3vh;
 		font-size: 1.6em;
 		text-align: center;
+		font-family: arial;
 	}
 	button{
 	
 		text-decoration: none;
-		margin-top: 2vh;
-		margin-left:45%;
+		margin-top: 1vh;
 		font-family: Times;
 		font-size: 1.2em;
 	}
-	#uno{
+	.mySlides,.mySlides1,.mySlides2,.mySlides3,.mySlides4,.mySlides5,.mySlides6{
+		display: none;
+		padding-top: 2vh;
+		font-size: 2em;
+
+	}
+	.todo p {
+		padding-right: 4vw;
+		padding-left: 4vw;
+	}
+	.todo{
 		text-align: center;
-		font-size: 3em;
-		font-weight: bold;
-		padding-top: 3vh;
+		padding-top: 2vh;
+	}
+	.ultimo{
+		margin-bottom: 5vh;
+	}
+	.atras{
+		text-align: center;
+		padding:0 0 3vh 0;
 	}
 	</style>
 	<!-- <div class="cuerpo" style="background-image: url(../images/IMG_8134.JPG);">
@@ -50,29 +138,94 @@
 	
 	<h1>Responses From My Interviews</h1>
 
-	<p class="ask">Your Role With The Exchange Students</p>
+	<p class="ask">Their Roles With The Exchange Students</p>
 
-	<p id="uno"></p>
-	<button onclick="answer1();">Show Answers</button>
+<div class="todo">
+	<p class="mySlides">The survey was responded by <strong>31</strong> people</p>
+	<p class="mySlides"><strong>14</strong> of them were part of the hosting exchange family program</p>
+	<p class="mySlides"><strong>10</strong> of them were teachers </p>
+	<p class="mySlides"><strong>7</strong> were program assistants of the organization </p>
+	<button onclick="carousel()">See Responses</button>
+</div>
 
-	<p class="ask">(Just if you have hosted an exchange student) What do you think about this experience hosting a stranger from another country?</p>
-	<button onclick="answer1()">Show Answers</button>
+
+	
+
+	<p class="ask">If an opportunity to study abroad for 10 months is given to you, would you do it? </p>
+
+<div class="todo">
+	<p class="mySlides4">From the <strong>30</strong> responses collected</p>
+	<p class="mySlides4"><strong>93.3%</strong> of them would do it</p>
+
+
+	<button onclick="carousel4()">See Responses</button>
+</div>
 
 	<p class="ask">Would you ever host an exchange student if you could? </p>
-		<button onclick="answer1()">Show Answers</button>
+<div class="todo">
+	<p class="mySlides2">From the 17 people who have not hosted an exchanges student yet</p>
+	<p class="mySlides2">94% of them want to host one</p>
+
+	<button onclick="carousel2()">See Responses</button>
+</div>
+
+
+<p class="ask">(Just if you have hosted an exchange student) What do you think about this experience hosting a stranger from another country?</p>
+
+<div class="todo">
+	<p class="mySlides1"><i>“Amazing opportunity!”</i></p>
+	<p class="mySlides1"><i>“We really enjoyed our experience.”</i></p>
+	<p class="mySlides1"><i>“I love it! We are waiting for our 9th student to arrive.”</i></p>
+	<p class="mySlides1"><i>“It is amazing! It’s a great way to learn about other cultures, share our American culture and gain family around the world!”</i></p>
+	<p class="mySlides1"><i>“Extremely disappointing”</i></p>
+
+	<button onclick="carousel1()">See Responses</button>
+</div>
+
+
 	<p class="ask">Three most characteristic traits that you have seen on the exchange students.</p>
-		<button onclick="answer1()">Show Answers</button>
+
+<div class="todo">
+	<p class="mySlides3"><i>“Confidence, Brave”</i></p>
+	<p class="mySlides3"><i>“Adventurous, excitement Outgoing”</i></p>
+	<p class="mySlides3"><i>“Kind, Curious”</i></p>
+	<p class="mySlides3"><i>“Excited, adventurous Happiness and bravery”</i></p>
+	<p class="mySlides3"><i>“Disrespectful, ungrateful, lazy”</i></p>
+	
+	<button onclick="carousel3()">See Responses</button>
+</div>
+
+
+
 	<p class="ask">A thing that you have learned from the exchange students?</p>
-		<button onclick="answer1()">Show Answers</button>
-	<p class="ask">If an opportunity to study abroad for 10 months is given to you, would you do it? </p>
-		<button onclick="answer1()">Show Answers</button>
+
+<div class="todo">
+	<p class="mySlides6"><i>“Diversity is an amazing thing and brings new ideas.”</i></p>
+	<p class="mySlides6"><i>“To see the world from another perspective.”</i></p>
+	<p class="mySlides6"><i>“Never underestimate the amount of joy being kind and open can bring to another person's
+life.”</i></p>
+	<p class="mySlides6"><i>“If you never accept a challenge, you will miss out on GREAT blessings!!!!”</i></p>
+	<p class="mySlides6"><i>To be a better judge of character 
+</i></p>
+	<button onclick="carousel3()">See Responses</button>
+</div>
+
+
 	<p class="ask">What expectations did you have about the exchange students? How they really are?</p>
-		<button onclick="answer1()">Show Answers</button>
-<!-- 
+
+
+<div class="todo">
+	<p class="mySlides5"><i>“I expected them to be more shy or nervous. I am impressed with how brave they are to travel around the world, live with a new family, try new foods, and learn in a different language.”</i></p>
+	<p class="mySlides5"><i>“Every person is very different really but I have seen growth after a while and change occurring, nobody stays the same after such a great experience. I expected that they would be open to a new culture and tried not to compare with their homeland.”</i></p>
+
+
+	<button class="ultimo" onclick="carousel5()">See Responses</button>
+</div>
+
 <div class="atras">
 			<a href="../index.html#target"> &#60; Go Back</a>
 		</div>
-		 -->
+		
 		
 
 </body>
