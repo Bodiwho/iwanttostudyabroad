@@ -5,11 +5,14 @@ body{
 
 
 .cuerpo{
-	height: 120vh;
+	height: 100vh;
 	width:100%;
 	background-size: cover;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center; 
+		overflow-y: scroll;
+
 }
 
 .cuerpo h1{
@@ -23,24 +26,40 @@ body{
 	font-weight: 400;
 }
 
+.cuerpo h2{
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+	padding-top: 3vh;
+}
+
 
 .cuadro{
-	display: block;
-	height: auto;
 	position: absolute;
+	display: block;
+	position: relative;
 	width: 60%;
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.7);
 	left: 20%;
 	right: 20%;
 	color: white;
 	margin-top: 10vh;
+	margin-bottom: 10vh;
+
+
+
 
 
 }
 .cuadro p {
-	padding-top: 0;
-	font-family: normal normal normal 50px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
-		padding: 10px 30px 10px 30px;
+	font-size: 1.1em;
+	text-align: left;
+	padding: 0px 30px 0px 30px;
+	line-height: 1.3em;
+	text-indent: 5%;
 }
 .cuadro h1{
 	padding-bottom: 0;
@@ -61,3 +80,33 @@ body{
 .atras a:hover {
 	text-decoration: underline;
 }
+
+.pass,.ds,.orien{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.pass img{
+	width: 34vw;
+	height:38vh;
+}
+
+.ds img{
+	width: 34vw;
+	height: 80vh;
+}
+
+.lista{
+	padding-top: 0;
+	padding-left: 3%;
+}
+
+.lista ul{
+	padding-top: 0;
+	font-size: 1.1em;
+	text-align: left;
+	line-height: 1.3em;
+}
+
