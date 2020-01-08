@@ -35,6 +35,7 @@ textarea {
   font-size: 125%;
 }
 button {
+  position: relative;
   font-size: 30px;
   background: #40898E;
   color: white;
