@@ -57,10 +57,10 @@ body{
 }
 .cuadro p {
 	font-size: 1.1em;
-	text-align: left;
+	text-align: justify;
 	padding: 0px 30px 0px 30px;
 	line-height: 1.3em;
-	text-indent: 5%;
+	text-indent: 0%;
 }
 .cuadro h1{
 	padding-bottom: 0;
