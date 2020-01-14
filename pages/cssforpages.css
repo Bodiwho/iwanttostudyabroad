@@ -66,8 +66,9 @@ body{
 	padding-bottom: 0;
 }
 
-
+/*
 .atras{
+
 		text-align: center;
 		padding-bottom: 20px;
 
@@ -80,7 +81,7 @@ body{
 
 .atras a:hover {
 	text-decoration: underline;
-}
+}*/
 
 .pass,.ds,.orien{
 	text-align: center;
@@ -122,5 +123,60 @@ body{
     font-style: italic;
     font-family: arial;
 
+}
+
+/*.bar{
+/*	float: right;*/
+	
+/*	
+}
+.left{
+	display: inline-flex;
+
+}
+.right{
+	display: inline-block;
+	text-align: right;
+
+	
+}
+
+
+.atras{
+	display: inline-block;
+	text-align: center;
+}
+
+.left a,.right a,.atras a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.right a{
+	text-align: right;
+}
+*/
+
+.bar{
+	display: inline-flex;
+	width: 100%;
+	text-align: center;
+}
+
+.bar p{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.bar p a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em
+}
+
+.bar p a:hover{
+	text-decoration: underline;
 }
 
