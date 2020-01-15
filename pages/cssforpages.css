@@ -11,17 +11,18 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center; 
-		overflow-y: scroll;
+	overflow-y: scroll;
 
 }
 
 .cuerpo h1{
-	padding: 50px;
+	padding: 3vh;
 	margin: 0;
 	text-align: center;
-	font-family: 'Lilita One', cursive;
+	font-family: times;
+	font-weight: 900;
 	color: white;
-	font-size: 70px;
+	font-size: 4.5em;
 	text-shadow: 2px 3px black;
 	font-weight: 400;
 }
@@ -30,7 +31,7 @@ body{
 	margin-top: 0;
 	text-align: center;
 	color: white;
-	font-size: 4em;
+	font-size: 3.7em;
 	text-shadow: 1px 1px black;
 	font-weight: bold;
 	padding-top: 3vh;
@@ -49,7 +50,7 @@ body{
 	left: 20%;
 	right: 20%;
 	color: white;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-bottom: 10vh;
 
 
